@@ -1,2 +1,0 @@
-#Thu Nov 10 14:27:37 IST 2022
-LastUpdatedSensorDescription=1668070083433
