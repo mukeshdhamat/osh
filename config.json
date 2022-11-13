@@ -1,0 +1,47 @@
+[
+  {
+    "objClass": "org.sensorhub.impl.service.HttpServerConfig",
+    "httpPort": 8181,
+    "httpsPort": 0,
+    "staticDocRootUrl": "web",
+    "servletsRootUrl": "/sensorhub",
+    "authMethod": "NONE",
+    "keyStorePath": ".keystore/ssl_keys",
+    "trustStorePath": ".keystore/ssl_trust",
+    "enableCORS": true,
+    "id": "6ca9c8a8-9768-4b60-9554-a8d277bf6b3f",
+    "moduleClass": "org.sensorhub.impl.service.HttpServer",
+    "name": "HTTP Server",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.ui.AdminUIConfig",
+    "widgetSet": "org.sensorhub.ui.SensorHubWidgetSet",
+    "bundleRepoUrls": [
+      "https://cloud.georobotix.io/addons/index.xml"
+    ],
+    "customPanels": [],
+    "customForms": [],
+    "id": "7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a",
+    "moduleClass": "org.sensorhub.ui.AdminUIModule",
+    "name": "Admin UI",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.fakeweather.FakeWeatherNetworkConfig",
+    "networkID": "001",
+    "numStations": 50,
+    "centerLocation": {
+      "objClass": "org.sensorhub.api.sensor.PositionConfig$LLALocation",
+      "lat": 34.8038,
+      "lon": -86.7228,
+      "alt": 0.0
+    },
+    "areaSize": 0.1,
+    "lastUpdated": "2022-11-10T14:18:03.433+0530",
+    "id": "4dab2bda-439b-4061-b2d6-d92bb97daa65",
+    "moduleClass": "org.sensorhub.impl.sensor.fakeweather.FakeWeatherNetwork",
+    "name": "New Simulated Weather Station Network",
+    "autoStart": false
+  }
+]

@@ -1,0 +1,18 @@
+2022-11-10 14:16:33.430 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2022-11-10 14:16:33.431 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2022-11-10 14:16:33.432 INFO  [ModuleRegistry-1] - Module STARTING
+2022-11-10 14:16:33.540 INFO  [ModuleRegistry-1] - Static resources root is web
+2022-11-10 14:16:33.550 INFO  [ModuleRegistry-1] - Servlets root is /sensorhub
+2022-11-10 14:16:33.656 INFO  [ModuleRegistry-1] - HTTP server started on port 8181
+2022-11-10 14:16:33.656 INFO  [ModuleRegistry-1] - Module STARTED
+2022-11-10 14:20:58.092 INFO  [ModuleRegistry-6] - Module STOPPING
+2022-11-10 14:20:58.103 INFO  [ModuleRegistry-6] - Module STOPPED
+2022-11-10 14:21:58.216 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2022-11-10 14:21:58.218 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2022-11-10 14:21:58.219 INFO  [ModuleRegistry-1] - Module STARTING
+2022-11-10 14:21:58.275 INFO  [ModuleRegistry-1] - Static resources root is web
+2022-11-10 14:21:58.285 INFO  [ModuleRegistry-1] - Servlets root is /sensorhub
+2022-11-10 14:21:58.352 INFO  [ModuleRegistry-1] - HTTP server started on port 8181
+2022-11-10 14:21:58.352 INFO  [ModuleRegistry-1] - Module STARTED
+2022-11-10 14:27:37.705 INFO  [ModuleRegistry-4] - Module STOPPING
+2022-11-10 14:27:37.718 INFO  [ModuleRegistry-4] - Module STOPPED

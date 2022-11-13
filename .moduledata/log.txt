@@ -1,0 +1,130 @@
+2022-11-10 14:16:32.941 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-service-swe
+2022-11-10 14:16:32.961 INFO  [FelixStartLevel] - Registering module: SOS Service
+2022-11-10 14:16:32.962 INFO  [FelixStartLevel] - Registering module: SPS Service
+2022-11-10 14:16:32.963 INFO  [FelixStartLevel] - Registering module: SOS-T Client
+2022-11-10 14:16:32.963 INFO  [FelixStartLevel] - Registering module: SWE Virtual Sensor
+2022-11-10 14:16:33.141 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-webui-core
+2022-11-10 14:16:33.142 INFO  [FelixStartLevel] - Registering module: OSH Admin UI (Vaadin)
+2022-11-10 14:16:33.179 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-datastore-h2
+2022-11-10 14:16:33.180 INFO  [FelixStartLevel] - Registering module: H2 Historical Obs Database
+2022-11-10 14:16:33.181 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-core
+2022-11-10 14:16:33.183 INFO  [FelixStartLevel] - Registering module: System Driver Database
+2022-11-10 14:16:33.184 INFO  [FelixStartLevel] - Registering module: TCP Comm Driver
+2022-11-10 14:16:33.186 INFO  [FelixStartLevel] - Registering module: UDP Comm Driver
+2022-11-10 14:16:33.189 INFO  [FelixStartLevel] - Registering module: SensorML Stream Process
+2022-11-10 14:16:33.190 INFO  [FelixStartLevel] - Registering module: Config Based Security Realm
+2022-11-10 14:16:33.218 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-service-sweapi
+2022-11-10 14:16:33.219 INFO  [FelixStartLevel] - Registering module: SensorWeb API Service
+2022-11-10 14:16:33.225 INFO  [FelixDispatchQueue] - *****************************************
+2022-11-10 14:16:33.228 INFO  [FelixDispatchQueue] - Starting SensorHub...
+2022-11-10 14:16:33.229 INFO  [FelixDispatchQueue] - Version: 2.0.0.beta1
+2022-11-10 14:16:33.232 INFO  [FelixDispatchQueue] - Build number: afd9757f
+2022-11-10 14:16:33.232 INFO  [FelixDispatchQueue] - JDK version: Java HotSpot(TM) 64-Bit Server VM, 11.0.17+10-LTS-269, Oracle Corporation
+2022-11-10 14:16:33.232 INFO  [FelixDispatchQueue] - OS type: Mac OS X, x86_64
+2022-11-10 14:16:33.232 INFO  [FelixDispatchQueue] - CPU cores: 16
+2022-11-10 14:16:33.234 INFO  [FelixDispatchQueue] - CommonPool parallelism: 15
+2022-11-10 14:16:33.366 INFO  [FelixDispatchQueue] - Registering database SystemDriverDatabase with ID 0
+2022-11-10 14:16:33.370 INFO  [FelixDispatchQueue] - Loading modules...
+2022-11-10 14:16:33.414 INFO  [FelixDispatchQueue] - Starting datastore connectors
+2022-11-10 14:16:33.415 INFO  [FelixDispatchQueue] - All datastores ready. Starting all other modules
+2022-11-10 14:16:33.430 INFO  [ModuleRegistry-2] - Initializing module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a]
+2022-11-10 14:16:33.430 INFO  [ModuleRegistry-1] - Initializing module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f]
+2022-11-10 14:16:33.431 INFO  [ModuleRegistry-2] - Module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a] initialized
+2022-11-10 14:16:33.431 INFO  [ModuleRegistry-1] - Module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f] initialized
+2022-11-10 14:16:33.432 INFO  [ModuleRegistry-2] - Starting module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a]
+2022-11-10 14:16:33.432 INFO  [ModuleRegistry-1] - Starting module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f]
+2022-11-10 14:16:33.656 INFO  [ModuleRegistry-1] - Module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f] started
+2022-11-10 14:16:33.759 INFO  [ModuleRegistry-1] - Module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a] started
+2022-11-10 14:17:06.592 INFO  [qtp59176533-67] - Activating bundle org.sensorhub.sensorhub-driver-fakeweather
+2022-11-10 14:17:06.593 INFO  [qtp59176533-67] - Registering module: Simulated Weather Sensor
+2022-11-10 14:17:06.594 INFO  [qtp59176533-67] - Registering module: Simulated Weather Station Network
+2022-11-10 14:18:09.655 INFO  [ModuleRegistry-3] - Initializing module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:18:09.726 INFO  [ModuleRegistry-3] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] initialized
+2022-11-10 14:18:09.743 INFO  [ModuleRegistry-3] - Starting module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:18:09.755 INFO  [ForkJoinPool.commonPool-worker-19] - Registering system urn:osh:sensor:simweathernetwork:001
+2022-11-10 14:18:09.756 INFO  [ForkJoinPool.commonPool-worker-19] - System urn:osh:sensor:simweathernetwork:001 handled by DB #0
+2022-11-10 14:18:09.835 INFO  [ForkJoinPool.commonPool-worker-19] - System registered: urn:osh:sensor:simweathernetwork:001 (50 FOIs, 1 datastreams, 0 command inputs, 0 members)
+2022-11-10 14:18:09.836 INFO  [ModuleRegistry-3] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] started
+2022-11-10 14:18:21.287 INFO  [ModuleRegistry-4] - Stopping module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:18:21.288 INFO  [ModuleRegistry-4] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] stopped
+2022-11-10 14:18:21.289 INFO  [ModuleRegistry-4] - Initializing module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:18:21.291 INFO  [ModuleRegistry-4] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] initialized
+2022-11-10 14:18:21.292 INFO  [ModuleRegistry-4] - Starting module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:18:21.292 INFO  [ForkJoinPool.commonPool-worker-19] - Registering system urn:osh:sensor:simweathernetwork:001
+2022-11-10 14:18:21.292 INFO  [ForkJoinPool.commonPool-worker-19] - System urn:osh:sensor:simweathernetwork:001 handled by DB #0
+2022-11-10 14:18:21.313 INFO  [ForkJoinPool.commonPool-worker-19] - System registered: urn:osh:sensor:simweathernetwork:001 (50 FOIs, 1 datastreams, 0 command inputs, 0 members)
+2022-11-10 14:18:21.314 INFO  [ModuleRegistry-4] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] started
+2022-11-10 14:20:35.558 INFO  [ModuleRegistry-5] - Stopping module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:20:35.559 INFO  [ModuleRegistry-5] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] stopped
+2022-11-10 14:20:35.559 INFO  [ModuleRegistry-5] - Initializing module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:20:35.561 INFO  [ModuleRegistry-5] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] initialized
+2022-11-10 14:20:35.562 INFO  [ModuleRegistry-5] - Starting module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:20:35.562 INFO  [ForkJoinPool.commonPool-worker-19] - Registering system urn:osh:sensor:simweathernetwork:001
+2022-11-10 14:20:35.562 INFO  [ForkJoinPool.commonPool-worker-19] - System urn:osh:sensor:simweathernetwork:001 handled by DB #0
+2022-11-10 14:20:35.565 INFO  [ForkJoinPool.commonPool-worker-19] - System registered: urn:osh:sensor:simweathernetwork:001 (50 FOIs, 1 datastreams, 0 command inputs, 0 members)
+2022-11-10 14:20:35.566 INFO  [ModuleRegistry-5] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] started
+2022-11-10 14:20:58.092 INFO  [FelixStartLevel] - Module registry shutdown initiated
+2022-11-10 14:20:58.092 INFO  [FelixStartLevel] - Stopping all modules (saving config = false, saving state = true)
+2022-11-10 14:20:58.094 INFO  [ModuleRegistry-7] - Stopping module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a]
+2022-11-10 14:20:58.094 INFO  [ModuleRegistry-6] - Stopping module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f]
+2022-11-10 14:20:58.095 INFO  [ModuleRegistry-8] - Stopping module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:20:58.095 INFO  [ModuleRegistry-7] - Module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a] stopped
+2022-11-10 14:20:58.103 INFO  [ModuleRegistry-8] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] stopped
+2022-11-10 14:20:58.104 INFO  [ModuleRegistry-6] - Module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f] stopped
+2022-11-10 14:20:58.410 INFO  [FelixStartLevel] - SensorHub was cleanly stopped
+2022-11-10 14:21:57.851 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-service-swe
+2022-11-10 14:21:57.868 INFO  [FelixStartLevel] - Registering module: SOS Service
+2022-11-10 14:21:57.869 INFO  [FelixStartLevel] - Registering module: SPS Service
+2022-11-10 14:21:57.870 INFO  [FelixStartLevel] - Registering module: SOS-T Client
+2022-11-10 14:21:57.870 INFO  [FelixStartLevel] - Registering module: SWE Virtual Sensor
+2022-11-10 14:21:57.942 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-webui-core
+2022-11-10 14:21:57.943 INFO  [FelixStartLevel] - Registering module: OSH Admin UI (Vaadin)
+2022-11-10 14:21:57.955 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-datastore-h2
+2022-11-10 14:21:57.956 INFO  [FelixStartLevel] - Registering module: H2 Historical Obs Database
+2022-11-10 14:21:57.957 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-core
+2022-11-10 14:21:57.958 INFO  [FelixStartLevel] - Registering module: System Driver Database
+2022-11-10 14:21:57.960 INFO  [FelixStartLevel] - Registering module: TCP Comm Driver
+2022-11-10 14:21:57.961 INFO  [FelixStartLevel] - Registering module: UDP Comm Driver
+2022-11-10 14:21:57.964 INFO  [FelixStartLevel] - Registering module: SensorML Stream Process
+2022-11-10 14:21:57.965 INFO  [FelixStartLevel] - Registering module: Config Based Security Realm
+2022-11-10 14:21:57.990 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-service-sweapi
+2022-11-10 14:21:57.992 INFO  [FelixStartLevel] - Registering module: SensorWeb API Service
+2022-11-10 14:21:57.997 INFO  [FelixStartLevel] - Activating bundle org.sensorhub.sensorhub-driver-fakeweather
+2022-11-10 14:21:57.998 INFO  [FelixStartLevel] - Registering module: Simulated Weather Sensor
+2022-11-10 14:21:57.999 INFO  [FelixStartLevel] - Registering module: Simulated Weather Station Network
+2022-11-10 14:21:58.007 INFO  [FelixDispatchQueue] - *****************************************
+2022-11-10 14:21:58.009 INFO  [FelixDispatchQueue] - Starting SensorHub...
+2022-11-10 14:21:58.011 INFO  [FelixDispatchQueue] - Version: 2.0.0.beta1
+2022-11-10 14:21:58.013 INFO  [FelixDispatchQueue] - Build number: afd9757f
+2022-11-10 14:21:58.014 INFO  [FelixDispatchQueue] - JDK version: Java HotSpot(TM) 64-Bit Server VM, 11.0.17+10-LTS-269, Oracle Corporation
+2022-11-10 14:21:58.014 INFO  [FelixDispatchQueue] - OS type: Mac OS X, x86_64
+2022-11-10 14:21:58.014 INFO  [FelixDispatchQueue] - CPU cores: 16
+2022-11-10 14:21:58.015 INFO  [FelixDispatchQueue] - CommonPool parallelism: 15
+2022-11-10 14:21:58.151 INFO  [FelixDispatchQueue] - Registering database SystemDriverDatabase with ID 0
+2022-11-10 14:21:58.154 INFO  [FelixDispatchQueue] - Loading modules...
+2022-11-10 14:21:58.204 INFO  [FelixDispatchQueue] - Starting datastore connectors
+2022-11-10 14:21:58.204 INFO  [FelixDispatchQueue] - All datastores ready. Starting all other modules
+2022-11-10 14:21:58.217 INFO  [ModuleRegistry-1] - Initializing module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f]
+2022-11-10 14:21:58.217 INFO  [ModuleRegistry-2] - Initializing module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a]
+2022-11-10 14:21:58.217 INFO  [ModuleRegistry-2] - Module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a] initialized
+2022-11-10 14:21:58.218 INFO  [ModuleRegistry-1] - Module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f] initialized
+2022-11-10 14:21:58.219 INFO  [ModuleRegistry-2] - Starting module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a]
+2022-11-10 14:21:58.219 INFO  [ModuleRegistry-1] - Starting module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f]
+2022-11-10 14:21:58.352 INFO  [ModuleRegistry-1] - Module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f] started
+2022-11-10 14:21:58.452 INFO  [ModuleRegistry-1] - Module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a] started
+2022-11-10 14:22:31.388 INFO  [ModuleRegistry-3] - Initializing module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:22:31.456 INFO  [ModuleRegistry-3] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] initialized
+2022-11-10 14:22:31.456 INFO  [ModuleRegistry-3] - Starting module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:22:31.457 INFO  [ForkJoinPool.commonPool-worker-19] - Registering system urn:osh:sensor:simweathernetwork:001
+2022-11-10 14:22:31.464 INFO  [ForkJoinPool.commonPool-worker-19] - System urn:osh:sensor:simweathernetwork:001 handled by DB #0
+2022-11-10 14:22:31.555 INFO  [ForkJoinPool.commonPool-worker-19] - System registered: urn:osh:sensor:simweathernetwork:001 (50 FOIs, 1 datastreams, 0 command inputs, 0 members)
+2022-11-10 14:22:31.556 INFO  [ModuleRegistry-3] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] started
+2022-11-10 14:27:37.704 INFO  [FelixStartLevel] - Module registry shutdown initiated
+2022-11-10 14:27:37.704 INFO  [FelixStartLevel] - Stopping all modules (saving config = false, saving state = true)
+2022-11-10 14:27:37.706 INFO  [ModuleRegistry-4] - Stopping module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f]
+2022-11-10 14:27:37.706 INFO  [ModuleRegistry-5] - Stopping module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a]
+2022-11-10 14:27:37.708 INFO  [ModuleRegistry-6] - Stopping module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65]
+2022-11-10 14:27:37.709 INFO  [ModuleRegistry-6] - Module 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] stopped
+2022-11-10 14:27:37.718 INFO  [ModuleRegistry-4] - Module 'HTTP Server' [6ca9c8a8-9768-4b60-9554-a8d277bf6b3f] stopped
+2022-11-10 14:27:37.718 INFO  [ModuleRegistry-5] - Module 'Admin UI' [7219eb9f-b591-4c2c-9ad9-4b63a29a1c4a] stopped
+2022-11-10 14:27:38.010 INFO  [FelixStartLevel] - SensorHub was cleanly stopped

@@ -1,0 +1,26 @@
+2022-11-10 14:16:33.430 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2022-11-10 14:16:33.431 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2022-11-10 14:16:33.432 INFO  [ModuleRegistry-2] - Module STARTING
+2022-11-10 14:16:33.758 INFO  [ModuleRegistry-1] - Module STARTED
+2022-11-10 14:16:50.196 INFO  [qtp59176533-64] - New connection to admin UI (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:17:06.010 INFO  [qtp59176533-67] - Installing org.sensorhub.sensorhub-driver-fakeweather:1.0.0...
+2022-11-10 14:17:16.540 INFO  [qtp59176533-47] - New connection to admin UI (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:18:03.434 INFO  [qtp59176533-64] - New UI action: Add New Module org.sensorhub.impl.sensor.fakeweather.FakeWeatherNetwork (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:18:09.647 INFO  [qtp59176533-46] - New UI action: Start 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:18:21.286 INFO  [qtp59176533-49] - New UI action: Update Config 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:18:27.759 INFO  [qtp59176533-49] - New UI action: save_config (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:20:04.228 INFO  [qtp59176533-46] - New UI action: logout (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:20:10.432 INFO  [qtp59176533-51] - New connection to admin UI (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:20:35.555 INFO  [qtp59176533-62] - New UI action: Update Config 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:20:38.932 INFO  [qtp59176533-49] - New UI action: save_config (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:20:58.093 INFO  [ModuleRegistry-7] - Module STOPPING
+2022-11-10 14:20:58.095 INFO  [ModuleRegistry-7] - Module STOPPED
+2022-11-10 14:21:58.216 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2022-11-10 14:21:58.217 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2022-11-10 14:21:58.219 INFO  [ModuleRegistry-2] - Module STARTING
+2022-11-10 14:21:58.451 INFO  [ModuleRegistry-1] - Module STARTED
+2022-11-10 14:22:04.490 INFO  [qtp507310504-47] - New connection to admin UI (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:22:16.228 INFO  [qtp507310504-48] - New connection to admin UI (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:22:31.382 INFO  [qtp507310504-46] - New UI action: Start 'New Simulated Weather Station Network' [4dab2bda-439b-4061-b2d6-d92bb97daa65] (from ip=[0:0:0:0:0:0:0:1], user=anonymous)
+2022-11-10 14:27:37.706 INFO  [ModuleRegistry-5] - Module STOPPING
+2022-11-10 14:27:37.718 INFO  [ModuleRegistry-5] - Module STOPPED
